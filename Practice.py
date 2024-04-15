@@ -41,10 +41,4 @@ submission = pd.DataFrame({'id': test_data['id'], 'target': predictions})
 submission.to_csv('disaster_tweets_submission.csv', index=False)
 
 print("Submission file is ready, Master Chief.")
-[nltk_data] Downloading package punkt to /usr/share/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!
-[nltk_data] Downloading package stopwords to /usr/share/nltk_data...
-[nltk_data]   Package stopwords is already up-to-date!
-[nltk_data] Downloading package wordnet to /usr/share/nltk_data...
-[nltk_data]   Package wordnet is already up-to-date!
-Submission file is ready, Master Chief.
+
